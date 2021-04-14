@@ -2,11 +2,11 @@
 # source and header files
 set(
     headers
-    "headers/base.h"
-    "headers/accountant.h"
-    "headers/errors.h"
-    "headers/parser.h"
-    "headers/app.h"
+    "headers/base.hpp"
+    "headers/accountant.hpp"
+    "headers/errors.hpp"
+    "headers/parser.hpp"
+    "headers/app.hpp"
 )
 
 set(

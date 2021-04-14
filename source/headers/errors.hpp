@@ -1,13 +1,13 @@
-/* KA - errors.h
+/* KA - errors.hpp
 what:
  * defines errors used throughout KA
 */
 
 #pragma once
-#ifndef KA_ERRORS_H
-#define KA_ERRORS_H
+#ifndef KA_ERRORS_HPP
+#define KA_ERRORS_HPP
 
-#include "base.h"
+#include "base.hpp"
 
 namespace ka
 {
@@ -47,4 +47,4 @@ namespace ka
     }
 }
 
-#endif // KA_ERRORS_H
+#endif // KA_ERRORS_HPP

@@ -1,11 +1,11 @@
-/* KA - base.h
+/* KA - base.hpp
 what:
  * usual includes from the std c++ library
 */
 
 #pragma once
-#ifndef KA_BASE_H
-#define KA_BASE_H
+#ifndef KA_BASE_HPP
+#define KA_BASE_HPP
 
 #include <map>
 #include <iostream>
@@ -18,4 +18,4 @@ namespace ka
 
 }
 
-#endif // KA_BASE_H
+#endif // KA_BASE_HPP

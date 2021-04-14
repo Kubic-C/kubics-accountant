@@ -1,4 +1,4 @@
-#include "headers/app.h"
+#include "headers/app.hpp"
 using namespace ka;
 
 int main()

@@ -1,4 +1,4 @@
-/* KA - app.h
+/* KA - app.hpp
 what:
  * main app loop
 */
@@ -7,7 +7,7 @@ what:
 #ifndef KA_APP_H
 #define KA_APP_H
 
-#include "accountant.h"
+#include "accountant.hpp"
 
 namespace ka
 {

@@ -1,4 +1,4 @@
-#include "headers/app.h"
+#include "headers/app.hpp"
 #include <filesystem>
 
 namespace ka
@@ -53,7 +53,7 @@ namespace ka
 
     int run()
     {
-        std::cout << "welcome to kuic's accoutant!\n";
+        std::cout << "welcome to kubic's accoutant!\n";
         std::cout << "type help for more info\n";
         cash_data cd;
 

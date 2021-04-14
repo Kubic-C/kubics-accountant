@@ -1,13 +1,13 @@
-/* KA - parser.h
+/* KA - parser.hpp
 what:
  * parses through strings to find specific substr
 */
 
 #pragma once
-#ifndef KA_PARSER_H
-#define KA_PARSER_H
+#ifndef KA_PARSER_HPP
+#define KA_PARSER_HPP
 
-#include "errors.h"
+#include "errors.hpp"
 
 #define check_find_str_get_next(str, search_str, return_str) \
             { \
@@ -111,4 +111,4 @@ namespace ka
     );
 }
 
-#endif // KA_PARSER_H
+#endif // KA_PARSER_HPP

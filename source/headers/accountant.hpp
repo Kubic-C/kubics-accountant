@@ -1,13 +1,13 @@
-/* KA - bank.h
+/* KA - accountant.hpp
 what:
- * bank.h is where most of accountant magic happens :P
+ * accountant.hpp is where most of accountant magic happens :P
 */
 
 #pragma once
-#ifndef KA_ACCOUNTANT_H
-#define KA_ACCOUNTANT_H
+#ifndef KA_ACCOUNTANT_HPP
+#define KA_ACCOUNTANT_HPP
 
-#include "parser.h"
+#include "parser.hpp"
 
 namespace ka
 {
@@ -201,4 +201,4 @@ namespace ka
     );
 }
 
-#endif // KA_ACCOUNTANT_H
+#endif // KA_ACCOUNTANT_HPP
